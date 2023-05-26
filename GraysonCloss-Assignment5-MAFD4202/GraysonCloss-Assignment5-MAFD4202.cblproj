@@ -2,10 +2,10 @@
   <PropertyGroup>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <ProjectGuid>{509C72C3-8E09-4C80-879E-062683FDE811}</ProjectGuid>
-    <OutputName>GraysonCloss_Assignment7_MAFD4202</OutputName>
+    <ProjectGuid>{2C6EB9F3-81D4-435D-9A8E-C529AA931A6D}</ProjectGuid>
+    <OutputName>GraysonCloss_Assignment5_MAFD4202</OutputName>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GraysonCloss_Assignment7_MAFD4202</RootNamespace>
+    <RootNamespace>GraysonCloss_Assignment5_MAFD4202</RootNamespace>
     <MFProjectType>Native</MFProjectType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -23,7 +23,8 @@
     <MaxError>100</MaxError>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Program1.cbl" />
+    <Compile Include="A5-SalaryReport-5A.cbl" />
+    <Compile Include="A5-SalaryReport-5B.cbl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Micro Focus\Visual COBOL\v1.0\MicroFocus.COBOL.targets" />
 </Project>
